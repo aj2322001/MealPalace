@@ -1,0 +1,39 @@
+@media screen and (max-width: 760px) {
+    header{
+        flex-direction: column;
+        padding-top: 10px;
+    }
+    header .logo{
+        font-size: 23px;
+        font-weight: bold;
+    }
+
+    #Services section{
+        flex-direction: column;
+        align-items: center;
+    }
+    #Services section div{
+        width: 65%;
+    }
+    #Services img{
+        width: 60%;
+    }
+}
+@media screen and (max-width: 640px) {
+    nav{
+        justify-content: space-between;
+    }
+    nav a{
+        font-size: 17.16px;
+    }
+    #Services section div{
+        width: 85%;
+    }
+    #Services img{
+        width: 60%;
+    }
+    #Home p{
+        visibility: hidden;
+        position: absolute;
+    }
+}
